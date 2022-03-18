@@ -10,6 +10,9 @@
         body {
             background: linear-gradient(to left, red, blue, yellow);
         }
+        td{
+            border: 1px solid;
+        }
     </style>
 </head>
 
@@ -23,23 +26,23 @@
         <div>
             <h2>Tabela-1</h2>
 
-            <table style="width: 500px; background-color: white; border:1px solid;">
+            <table style="width: 500px; background-color: white; border-collapse:collapse;">
 
-                <tr>
+                <tr style="border:1px solid;">
 
                     <td>1</td>
                     <td>2</td>
                     <td>3</td>
                 </tr>
 
-                <tr style="text-align: center;">
+                <tr style="text-align: center; border:1px solid;">
 
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
                 </tr>
 
-                <tr style="text-align: center;">
+                <tr style="text-align: right; border:1px solid;">
 
                     <td>7</td>
                     <td>8</td>
@@ -51,7 +54,7 @@
         <div>
             <h2>Tabela-2</h2>
 
-            <table style="width: 500px; background-color: white; border:1px solid;">
+            <table style="width: 500px; background-color: white;  border-collapse:collapse;">
 
                 <tr>
 
