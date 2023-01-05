@@ -7,23 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de Estudos</title>
     <style>
-        body {
+        *{
+            margin: 0px;
+            padding: 0px;
+          }
+          body {
             background: linear-gradient(to left, red, blue, yellow);
-        }
+            display: grid;
+            width: 100vw;
+            height: 80vh;
+          }
+
+          header{
+            display: flex; 
+            align-items:center; 
+            justify-content:center; 
+            margin-top: 5px;
+          }
         section.top{
             display: flex;
             justify-content: space-around;
-            margin-bottom: 25%;
+            margin-bottom: 5%;
         }
 
         section.inferior{
             display: flex;
             justify-content: center;
-            margin-bottom: 25%;
+            margin-bottom: 5%;
         }
         
         table{
-            width: 500px;
+            width: 300px;
             height: 100px; 
             background-color: white; 
             border-collapse:collapse;
@@ -42,9 +56,9 @@
 </head>
 
 <body>
-    <header style="display: flex; align-items:center; justify-content:center;">
+    <header>
         <h1 style="font-family:sans-serif; color:aliceblue; padding:10px">Plano de estudos</h1>
-        <img src="./imagens/cronograma1.png" alt="Imagem_cronograma1" style="max-width: 300px;" srcset="">
+        <img src="./imagens/cronograma1.png" alt="Imagem_cronograma1" style="max-width: 200px;" srcset="">
     </header>
 
     <main>

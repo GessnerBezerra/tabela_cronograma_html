@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cronograma de Estudos</title>
     <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
       body {
         background: linear-gradient(to left, red, blue, yellow);
+        display: grid;
+        width: 100vw;
+        height: 80vh;
       }
+
+      header{
+        display: flex; 
+        align-items:center; 
+        justify-content:center; 
+        margin-top: 5px;
+      }
+
       th{
         text-align: center;
         border: 1px solid;
@@ -22,14 +37,14 @@
   </head>
 
   <body>
-    <header style="display: flex; align-items: center; justify-content: center">
+    <header>
       <h1 style="font-family: sans-serif; color: aliceblue; padding: 10px">
         Plano de estudos
       </h1>
       <img
         src="./imagens/cronograma1.png"
         alt="Imagem_cronograma1"
-        style="max-width: 300px; padding: 100px"
+        style="max-width: 200px;"
         srcset=""
       />
     </header>
@@ -50,7 +65,7 @@
           <tr >
             <td
               rowspan="2"
-              style="width: 100px; height: 300px;"
+              style="width: 100px; height: 200px;"
             >
               MENU
             </td>
