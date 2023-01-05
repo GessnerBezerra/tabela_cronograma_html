@@ -10,9 +10,34 @@
         body {
             background: linear-gradient(to left, red, blue, yellow);
         }
+        section.top{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 25%;
+        }
+
+        section.inferior{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25%;
+        }
+        
+        table{
+            width: 500px;
+            height: 100px; 
+            background-color: white; 
+            border-collapse:collapse;
+        }
         td{
             border: 1px solid;
+            cursor: pointer;
+            
         }
+        tr:nth-child(2n) {
+            background-color: aqua;
+            
+        }
+        
     </style>
 </head>
 
@@ -23,11 +48,12 @@
     </header>
 
     <main>
-        <section style="display: flex; justify-content: space-around;">
+        <section class="top">
             <div>
                 <h2>Tabela-1</h2>
     
-                <table style="width: 500px; background-color: white; border-collapse:collapse;">
+        <section class="superior">
+                <table>
     
                     <tr style="border:1px solid;">
     
@@ -55,7 +81,7 @@
             <div>
                 <h2>Tabela-2</h2>
     
-                <table style="width: 500px; background-color: white;  border-collapse:collapse;">
+                <table>
     
                     <tr>
     
@@ -79,11 +105,11 @@
             </div>
         </section>
 
-        <section style="display: flex; justify-content:center">
+        <section class="inferior">
             <div>
                 <h2>Tabela-3</h2>
     
-                <table style="width: 500px; background-color: white;  border-collapse:collapse;">
+                <table>
     
                     <tr>
     
